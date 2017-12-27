@@ -1,0 +1,239 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.topper_menu{
+	display:none;
+}
+.menu-btn{
+	display:block;
+}
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+.topper_menu{
+	display:none;
+}
+.menu-btn{
+	display:block;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 15px;
+}
+.nav-item {
+  margin-right: 0;
+}
+.navbar-brand {
+  margin-right: 125px;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+.topper_menu{
+	display:none;
+}
+.menu-btn{
+	display:block;
+}	
+.navbar-light .navbar-nav .nav-link {
+  font-size: 15px;
+}
+.navbar-brand {
+  margin-right: 50px;
+   width: 150px;
+}
+.nav-item {
+  margin-right: 0;
+}
+.footer-widgets h3 {
+  font-size: 17px;
+}
+.footer-widgets p {
+  font-size: 14px;
+}
+.footer-widgets a {
+  font-size: 12px;
+}
+.form_post_job form {
+  width: 340px;
+}
+.header-text form label {
+  font-size: 20px;
+}
+.boxed-btn {
+  width: inherit;
+}
+.modal-dialog.modal_cust_content {
+  max-width: 500px;
+}
+.modal_title_area {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form_popup_main input[type="text"] {
+	width: 312px;
+}
+.form_popup_main textarea {
+  width: 312px;
+}
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+.topper_menu{
+display: block;
+padding-top: 15px;
+text-align: center;
+}
+.menu_off_mb{
+	display:none;
+}
+.navbar-brand {
+  margin-right: 0;
+}
+.navbar-nav {
+  margin-top: 25px;
+}
+.navbar-toggler {
+  cursor: pointer;
+}
+.header-text h1 {
+  font-size: 30px;
+  line-height: 35px;
+}
+.hire_loacal_designer p {
+  font-size: 17px;
+}
+.header-text form {
+  position: inherit;
+}
+.hire_loacal_designer {
+  text-align: center;
+}
+.form_post_job form {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 14px;
+}
+.header-text {
+  padding: 50px 0;
+}
+.header-text input[type="submit"] {
+  font-size: 16px;
+  height: 60px;
+  width: 70%;
+}
+.single_footer_widget {
+margin-top: 27px;
+text-align: center;
+}
+.footer-widgets h3 {
+  margin-bottom: 10px;
+}
+.navbar-brand {
+  max-width: 65%;
+}
+.modal-dialog.modal_cust_content {
+  max-width: 200px;
+}
+.modal_title_area {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form_popup_main input[type="text"] {
+ width: 80%;
+}
+.form_popup_main textarea {
+  width: 80%;
+}
+.border_poup {
+  margin: 41px auto;
+  width: 71%;
+}
+#my_modal {
+  padding-right: 0 !important;
+}
+.modal-dialog.modal_cust_content {
+  max-width: 90%;
+  margin: 30px auto;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+.topper_menu{
+	display:none;
+}
+.menu_off_mb{
+	display:block;
+}	
+.navbar-brand {
+  margin-right: 10px;
+}
+.navbar-brand {
+  width: 80px;
+margin-top: 0;
+padding-top: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 12px;
+}
+.nav-item {
+  margin-right: 0;
+}
+.inline-btn {
+  font-size: 12px;
+}
+.boxed-btn {
+  font-size: 12px;
+  padding: 7px;
+  width: inherit;
+}
+.form_post_job form {
+  width: 250px;
+}
+.header-text form label {
+  font-size: 15px;
+}
+.header-text input[type="submit"] {
+  height: 47px;
+  width: 169px;
+}
+.header-text h1 {
+  font-size: 30px;
+}
+.hire_loacal_designer p {
+  font-size: 14px;
+}
+.single_footer_widget.footer-widgets {
+  margin-bottom: 60px;
+}
+.footer-area {
+  padding: 60px 0;
+}
+.last_two_widget {
+  margin-bottom: 0 !important;
+}
+.modal-dialog.modal_cust_content {
+  max-width: 500px;
+}
+.modal_title_area {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form_popup_main input[type="text"] {
+  width: 312px;
+}
+.form_popup_main textarea {
+  width: 312px;
+}
+}
+
+
+
+
+
+
